@@ -1,0 +1,25 @@
+img {
+    float:left;
+}
+p{
+    clear: both;
+}
+
+h1 {
+    color: blueviolet;
+}
+h2 {
+border: 3px blueviolet solid;
+border-radius: 15px/10px;
+box-shadow: 3px 3px 1px blueviolet;
+}
+body{
+    background-image: url("image/pompier.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ @font-face {
+    font-family: 'banksia';
+    src: url('banksia.ttf') format ('truetype');
+ }
