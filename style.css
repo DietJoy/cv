@@ -14,12 +14,18 @@ border-radius: 15px/10px;
 box-shadow: 3px 3px 1px blueviolet;
 }
 body{
-    background-image: url("image/pompier.png");
+    background-image: url("image/pompier.png"); 
     background-attachment: fixed;
+    opacity: 0.9;
     background-position: center;
     background-repeat: no-repeat;
  }
  @font-face {
-    font-family: 'banksia';
-    src: url('banksia.ttf') format ('truetype');
+    font-family: banksia;
+    src: url(banksia.ttf) format('truetype');
  }
+
+    .text {
+        opacity: 1;
+        background-color: #FFF;
+    }
